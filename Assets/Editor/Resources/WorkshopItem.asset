@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf2299c8864afe4ab42466f546ae20d, type: 3}
+  m_Name: WorkshopItem
+  m_EditorClassIdentifier: 
+  WorkshopPublishedFileID: 926122787
+  Title: Edgework
+  Description: 'THIS MODULE IS STILL A SEMI-WORK-IN-PROCESS! If you have any questions
+    or comments, contact @ZekNikZ#0878 on Discord.
+
+
+    A needy module that asks you questions based on the edgework of the bomb. Designed
+    to work best with multiple bombs and increased edgework.
+
+
+    Created and implemented by Ion Lee as well as cleaned up by ZekNikZ.'
+  PreviewImage: {fileID: 2800000, guid: fcc1b17ca087a5b44a578c5e4dcab58f, type: 3}
+  Tags:
+  - Needy Module

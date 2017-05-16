@@ -3,15 +3,14 @@ using System.Collections;
 
 public class ExampleNeedyModule : MonoBehaviour
 {
-    public KMSelectable SolveButton;
-    public KMSelectable AddTimeButton;
+    public KMSelectable[] Buttons;
+	public TextMesh[] Labels;
+	public TextMesh DisplayText;
 
     void Awake()
     {
         GetComponent<KMNeedyModule>().OnNeedyActivation += OnNeedyActivation;
         GetComponent<KMNeedyModule>().OnNeedyDeactivation += OnNeedyDeactivation;
-        SolveButton.OnInteract += Solve;
-        AddTimeButton.OnInteract += AddTime;
         GetComponent<KMNeedyModule>().OnTimerExpired += OnTimerExpired;
     }
 
